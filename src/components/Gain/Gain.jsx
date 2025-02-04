@@ -44,7 +44,7 @@ const Gain = () => {
             our services
           </h1>
           <h1 className="gsans mt-6 font-semibold tracking-tight text-7xl lg:text-8xl  dark:text-[#ffffff] text-[#0c0c0c]">
-          What you’ll gain  in this <span className="text-[#ff0000]">program</span> 
+          What you’ll gain  in this <span className="text-[#0c0c0c]">program</span> 
           </h1>
           {/* <p className="small hidden lg:block text-sm lg:text-lg dark:text-zinc-200 text-[#0c0c0c] mt-28">
             Ready to take your business to the next level?
@@ -54,7 +54,7 @@ const Gain = () => {
 
         {/* Right Section - Scrollable Content */}
         <div className="mt-12 overflow-y-auto">
-          <div className="flex max-w-4xl mx-auto flex-col mb-20">
+          <div className="grid gap-4 grid-cols-2 max-w-7xl mx-auto  mb-20">
             {gainData.map((data, index) => (
               
                 <div>

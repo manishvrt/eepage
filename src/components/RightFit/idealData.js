@@ -4,19 +4,23 @@ export const idealData = [
         id: "01",
         title : "Tenure",
         
-        desc : "Minimum 2 years in business"
+        desc : "Minimum",
+        desc2 : "2 years in business"
 
     },
     {
         id: "02",
         title : "Revenue",
-        desc : "Revenue of $500,000+"
+        desc : "Revenue of",
+        desc2 : "$500,000+"
 
     },
     {
         id: "03",
         title : "Team",
-        desc : "A team of 10+ employees"
+        desc : "A team of",
+        desc2 : "10+ employees"
+
 
     },
     // {
