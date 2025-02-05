@@ -7,7 +7,7 @@ import { moduleFourData } from "./moduleFourData";
 const Growth = () => {
   return (
     <div>
-      <div className="max-w-7xl my-24 mx-auto">
+      <div className="px-20 my-24 mx-auto">
         <div className="relative w-full overflow-hidden bg-[#989999] h-96 rounded-[40px]">
           {/* Background Image */}
           <img
@@ -32,7 +32,7 @@ const Growth = () => {
                 Module 1
               </span>
               <h1 className=" mt-8 text-4xl gsans font-semibold">
-                Discover Your Entrepreneurial DNA
+                Discover Your Entrepreneurial Profile
               </h1>
             </div>
             <div className="space-y-1">

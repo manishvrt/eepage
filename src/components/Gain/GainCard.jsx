@@ -19,9 +19,8 @@ const GainCard = ({ id, imgSrc, title, bgcolor,title2, videoSrc ,description}) =
   return (
     <div className=' '>
       <div
-        className="rounded-full  w-full group relative "
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
+        className="rounded-full  w-full group "
+        
       >
         {/* Video Background */}
         {/* <video
@@ -35,22 +34,22 @@ const GainCard = ({ id, imgSrc, title, bgcolor,title2, videoSrc ,description}) =
         {/* Black Overlay */}
         {/* <div className="absolute inset-0 bg-zinc-900 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div> */}
 
-        <div className="lg:grid bg-[#ffffff] bg-opacity-30 border  dark:bg-[#101010] rounded-[35px] mt-4  dark:border-gray-900 flex  max-w-7xl mx-auto px-6 justify-between lg:grid-cols-5 items-center w-full h-auto py-6 lg:h-32 relative z-10">
-          <div className="lg:col-span-1 hidden lg:block flex justify-start">
+        <div className="lg:grid bg-[#ffffff]/80    dark:bg-[#101010] rounded-[35px]  dark:border-gray-900 flex  max-w-7xl mx-auto px-6 justify-between lg:grid-cols-12 items-center w-[40svw] h-auto py-6 lg:h-32 relative z-10">
+          <div className="lg:col-span-2 hidden lg:block flex justify-start">
             <span className="dark:text-zinc-200 text-zinc-400 font-semibold small text-xl">
               0{id}
             </span>
           </div>
 
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-10">
             <div className="flex flex-col lg:flex-row lg:items-center justify-start items-start lg:space-x-10">
               
               <div className="flex lg:mt-0 mt-4 flex-col">
                 
-                <h1 className="lg:text-[1.7rem] tracking-wide text-2xl font-semibold gsans  text-[#ff0000] dark:text-[#ffffff]">
+                <h1 className="lg:text-[1.5rem] tracking-wide text-2xl font-semibold gsans  text-[#0c0c0c] dark:text-[#ffffff]">
                   {title}<span className='mx-1'></span>{title2}
                 </h1>
-                <p className="mt-5 text-[#0c0c0c]/80 dark:text-[#989999] text-sm lg:text-[18px] small ">
+                <p className="mt-5 text-[#0c0c0c]/80 dark:text-[#989999] text-sm lg:text-[16px] small ">
                   {description}
                 </p>
               </div>

@@ -19,24 +19,29 @@ const Hero = () => {
       </div>
 
       {/* Text Content */}
-      <div className="absolute mt-16 max-w-7xl mx-auto inset-0 flex flex-col items-start justify-center text-[#0c0c0c]  px-4">
+      <div className="absolute mt-16 px-20 inset-0  flex flex-col items-start justify-center text-[#0c0c0c] ">
         <h1 className="text-4xl gsans md:text-6xl font-bold">
-          Unlock Your Entrepreneurial Potential with <span className="text-[#ff0000]">Entrepreneur’s EDGE</span>
+          Unlock Your Entrepreneurial Potential with{" "}
+          <span className="text-[#ff0000]">Entrepreneur’s EDGE</span>
         </h1>
         <p className="mt-8 text-lg tracking-tight text-zinc-700 small md:text-xl">
-          Transform your Business through scientific assessment of your
-          Leadership DNA
+          Transform your Business through proven psychometric assessment and research backed insights
         </p>
         <div className="flex justify-center items-center gap-3">
-          
-          <h1 className="mt-10 text-[#989999] font-semibold text-3xl tracking-tight small">
-          A <span className="font-semibold text-[#0c0c0c]">4-week intensive program</span> designed to unlock your unique <span className="font-semibold text-[#0c0c0c]">competencies, driving
-          forces, and behaviors</span> empowering you to accelerate your entrepreneurial success.
+          <h1 className="mt-10 text-[#0c0c0c] font-semibold text-3xl tracking- small">
+            A{" "}
+            <span className="font-semibold text-[#0c0c0c]">
+              4-week intensive program
+            </span>{" "}
+            designed to unlock your unique{" "}
+            <span className="font-semibold text-[#0c0c0c]">
+              competencies, driving forces, and behaviors
+            </span>{" "}
+            empowering you to accelerate your entrepreneurial success.
           </h1>
-        
         </div>
-        <button className=' mt-16 text-[#ffffff] tracking-wide font-semibold border border-[#ffffff]/20 small text-[18px] bg-[#ff0000]   w-fit px-6 h-14 rounded-2xl'>
-        Begin Your Transformation
+        <button className=" mt-16 text-[#ffffff] tracking-wide font-semibold border border-[#ffffff]/20 small text-[18px] bg-[#ff0000]   w-fit px-6 h-14 rounded-2xl">
+          Begin Your Transformation
         </button>
       </div>
     </div>

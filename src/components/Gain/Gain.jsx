@@ -35,16 +35,16 @@ const Gain = () => {
   }, []);
 
   return (
-    <div className="bg-[#eeeeee]/60 dark:bg-[#0c0c0c] h-auto">
-      <div className="grid grid-cols-1 gap-6 max-w-7xl mx-auto ">
+    <div className="bg-[#eeeeee]/60  dark:bg-[#0c0c0c] h-auto">
+      <div className="grid grid-cols-1 gap-6  mx-auto ">
         {/* Left Section - Sticky */}
         <div className=" px-6 lg:px-0   flex flex-col lg:justify-center items-center">
           <h1 className="small gap-2 mt-14 max-w-2xl items-center flex justify-center text-[19px] text-[#0c0c0c] dark:text-[#ffffff]">
             <span className="dark:bg-[#ffffff] bg-[#0c0c0c] w-2 h-2 rounded-full inline-block"></span>
             our services
           </h1>
-          <h1 className="gsans mt-6 font-semibold tracking-tight text-7xl lg:text-8xl  dark:text-[#ffffff] text-[#0c0c0c]">
-          What you’ll gain  in this <span className="text-[#0c0c0c]">program</span> 
+          <h1 className="gsans mt-6 font-semibold tracking-tight text-7xl lg:text-7xl  dark:text-[#ffffff] text-[#0c0c0c]">
+          What you’ll gain  in this <span className="text-[#ff0000]">program</span> 
           </h1>
           {/* <p className="small hidden lg:block text-sm lg:text-lg dark:text-zinc-200 text-[#0c0c0c] mt-28">
             Ready to take your business to the next level?
@@ -54,11 +54,12 @@ const Gain = () => {
 
         {/* Right Section - Scrollable Content */}
         <div className="mt-12 overflow-y-auto">
-          <div className="grid gap-4 grid-cols-2 max-w-7xl mx-auto  mb-20">
+          <div className="flex flex-wrap justify-center gap-6 px-20 mb-20">
             {gainData.map((data, index) => (
               
                 <div>
                   <GainCard
+                  key={index}
                     id={data.id}
                     videoSrc={data.videoSrc}
                     bgcolor={data.bgcolor}

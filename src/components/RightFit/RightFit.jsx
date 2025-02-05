@@ -5,7 +5,7 @@ import IdealCard from "./IdealCard";
 import { idealData } from "./idealData";
 const RightFit = () => {
   return (
-    <div className="max-w-7xl my-28 mx-auto ">
+    <div className="px-20 my-28 mx-auto ">
       <div className="grid items-center grid-cols-5 gap-4 ">
         <div className="col-span-3">
           <h1 className="small gap-2 tracking-tight  max-w-2xl items-center flex text-[17px] lg:text-[20px] text-[#0c0c0c] dark:text-[#ffffff]">
@@ -28,7 +28,7 @@ const RightFit = () => {
         ))}
       </div>
       <h1 className="gsans mt-20 dark:text-[#ffffff] font-semibold   text-[#0c0c0c] text-3xl lg:text-5xl">
-        Ideal Participant Profile
+        Ideal Entrepreneur Profile
       </h1>
       <div className="grid grid-cols-3 mt-20 w-full gap-6">
         {idealData.map((data, id) => (
