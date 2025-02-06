@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar"; // Import the Navbar component
 import DynamicNavbar from "./DynamicNav";
-
+import Link from "next/link";
 const Hero = () => {
   return (
     <div
@@ -26,7 +26,8 @@ const Hero = () => {
           <span className="text-[#ff0000]">Entrepreneur’s EDGE</span>
         </h1>
         <p className="mt-8 text-md tracking-tight text-zinc-700 small md:text-xl">
-          Transform your Business through proven psychometric assessment and research backed insights
+          Transform your Business through proven psychometric assessment and
+          research backed insights
         </p>
         <div className="flex justify-center items-center gap-3">
           <h1 className="mt-10 text-[#0c0c0c] font-semibold text-lg lg:text-3xl tracking- small">
@@ -41,9 +42,12 @@ const Hero = () => {
             empowering you to accelerate your entrepreneurial success.
           </h1>
         </div>
-        <button className=" mt-8 lg:mt-16 text-[#ffffff] tracking-wide font-semibold border border-[#ffffff]/20 small text-[18px] bg-[#ff0000]   w-fit px-6 h-14 rounded-2xl">
-          Begin Your Transformation
-        </button>
+        <a href="https://www.surveymonkey.com/r/Entrepreneur_Edge" target="_blank"
+            rel="noopener noreferrer">
+          <button className=" mt-8 lg:mt-16 text-[#ffffff] tracking-wide font-semibold border border-[#ffffff]/20 small text-[18px] bg-[#ff0000]   w-fit px-6 h-14 rounded-2xl">
+            Begin Your Transformation
+          </button>
+        </a>
       </div>
     </div>
   );

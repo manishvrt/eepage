@@ -3,6 +3,7 @@ import FitCard from "./FitCard";
 import { fitcardData } from "./fitcardData";
 import IdealCard from "./IdealCard";
 import { idealData } from "./idealData";
+import Link from "next/link";
 const RightFit = () => {
   return (
     <div className="lg:px-20 px-4 my-28 mx-auto ">
@@ -17,9 +18,15 @@ const RightFit = () => {
           </h1>
         </div>
         <div className="lg:col-span-2 flex mt-5 lg:justify-end">
-          <button className="  text-[#ffffff] tracking-wide font-semibold border border-[#ffffff]/20 small text-[18px] bg-[#ff0000]   w-fit px-6 h-14 rounded-2xl">
-            Get started now
-          </button>
+          <Link
+            href="https://www.surveymonkey.com/r/Entrepreneur_Edge"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="  text-[#ffffff] tracking-wide font-semibold border border-[#ffffff]/20 small text-[18px] bg-[#ff0000]   w-fit px-6 h-14 rounded-2xl">
+              Make Your Mark – Take the Survey!
+            </button>
+          </Link>
         </div>
       </div>
       <div className="grid lg:grid-cols-3 mt-20 w-full gap-6">

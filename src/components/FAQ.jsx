@@ -67,7 +67,7 @@ const FAQ = () => {
                 className="w-full p-6 flex max-w-5xl mx-auto flex-col cursor-pointer bg-[#ececec]/60  h-auto rounded-3xl"
               >
                 <div className="flex justify-between items-center ">
-                  <h1 className="small text-md lg:text-xl  text-[#0c0c0c]">
+                  <h1 className="small text-md tracking-tight font-semibold lg:text-xl  text-[#0c0c0c]">
                     {faq.question}
                   </h1>
                   <span
@@ -90,7 +90,7 @@ const FAQ = () => {
                   className="overflow-hidden"
                   style={{ height: 0, opacity: 0 }}
                 >
-                  <p className="mt-4 small  text-md lg:text-lg text-zinc-700">
+                  <p className="mt-4 small tracking-tight text-md lg:text-lg text-zinc-700">
                     {faq.answer}
                   </p>
                 </div>
@@ -105,35 +105,26 @@ const FAQ = () => {
 
 const faqData = [
   {
-    question: "Why is this research being conducted now?",
+    question: "How much time should I commit weekly?",
     answer:
-      "With the dramatic changes in the business landscape over the past 5-10 years, we are updating our understanding of entrepreneurial success traits for the modern era.",
+      "Plan for 4-6 hours per week, including live sessions and action steps.",
   },
   {
-    question: "What makes the Tri Metrix HD assessment valuable?",
+    question: "Will I receive personalized feedback?",
     answer:
-      "This comprehensive tool analyzes your behaviors, driving forces, and competencies, providing actionable insights for business growth and leadership development.",
+      "Yes! Small cohort size ensures 1:1 feedback and direct guidance.",
   },
   {
-    question: "How is the workshop structured?",
+    question: "What makes this different from other programs?",
     answer:
-      "The workshop consists of two 3-hour online sessions, typically one week apart, allowing for optimal learning and implementation.",
+      "Unlike generic business courses, this program is:",
   },
   {
-    question: "What happens after I qualify?",
+    question: "Can I access materials after the program?",
     answer:
-      "You will receive access to the TRI-METRIX assessment, followed by workshop enrollment and your personalized development resources.",
+      "Yes! You’ll have lifetime access to all program materials &and assessments.",
   },
-  {
-    question: "Will my responses and assessment results remain confidential?",
-    answer:
-      "Absolutely. All data will be anonymized and used solely for research purposes in line with ethical guidelines.",
-  },
-  {
-    question: "Is there a fee for participating in the research?",
-    answer:
-      "No, participation in the research and access to the Entrepreneur Edge Program is completely complimentary for qualified participants.",
-  },
+  
 ];
 
 

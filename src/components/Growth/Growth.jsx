@@ -11,7 +11,7 @@ const Growth = () => {
         <div className="relative w-full overflow-hidden bg-[#989999] h-60 lg:h-96 rounded-[40px]">
           {/* Background Image */}
           <img
-            src="https://assets.lummi.ai/assets/QmNvHJKQTD4z8WADNUzriA3z1KGFjZVbbvk27HJwRn5Wdw?auto=format&w=1500"
+            src="https://images.pexels.com/photos/1134188/pexels-photo-1134188.jpeg"
             alt=""
             className="h-full w-full object-cover"
           />

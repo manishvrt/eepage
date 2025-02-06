@@ -9,7 +9,7 @@ const Unlock = () => {
         <div className="grid items-center lg:gap-12 grid-cols-1 lg:grid-cols-5">
           <div className="lg:col-span-2 flex justify-center lg:justify-start">
             <img
-              src="https://images.pexels.com/photos/6535344/pexels-photo-6535344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/4467687/pexels-photo-4467687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="impact"
               className="lg:w-[30svw] rounded-full w-72 h-72 lg:h-[60svh] object-cover"
             />

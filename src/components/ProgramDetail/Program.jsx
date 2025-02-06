@@ -2,7 +2,7 @@ import React from "react";
 import ProgramCard from "./ProgramCard";
 import { programData } from "./programData";
 import { programDateData } from "./programDateData";
-
+import Link from "next/link";
 const StatsCard = () => {
   const backgroundImage = {
     backgroundImage: "url('/programbgs.jpg')",
@@ -48,12 +48,15 @@ const StatsCard = () => {
 
             {/* Content */}
             <h1 className=" text-3xl text-center lg:text-5xl text-white font-bold gsans z-10">
-              Enrollment Deadline - February 28th, 2025
+              Enrollment Deadline - February 28<sup>th</sup>, 2025
             </h1>
-
-            <button className="relative mt-16 text-[#0c0c0c] tracking-wide font-semibold border border-white/20 small text-md lg:text-[18px] bg-[#ffffff] w-fit px-3 lg:px-6 h-14 rounded-2xl z-10">
-              Secure Your Spot Now – Limited Seats Available
+<Link href="https://www.surveymonkey.com/r/Entrepreneur_Edge" target="_blank"
+            rel="noopener noreferrer">
+               <button className="relative mt-16 text-[#0c0c0c] tracking-wide font-semibold border border-white/20 small text-md lg:text-[18px] bg-[#ffffff] w-fit px-3 lg:px-6 h-14 rounded-2xl z-10">
+            Join the Impact – Fill Out the Survey!
             </button>
+            </Link>
+           
           </div>
       </div>
     </>

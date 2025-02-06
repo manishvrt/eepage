@@ -26,7 +26,7 @@ const Meet = () => {
             <img src="/points.svg" alt="" className="w-5  h-5 object-cover" />
 
             <h1 className=" text-md lg:text-lg text-[#0c0c0c] font-semibold tracking-wide  small">
-              Former Vice President at General Electric (GE)
+              Former Senior Vice President at General Electric (GE)
             </h1>
           </div>
           <div className="bg-[#989999]/10  p-4 lg:p-4 flex  justify-start gap-4 items-center mt-5 lg:mt-4 relative w-full h-auto lg:h-auto py-4 rounded-3xl">
@@ -47,8 +47,8 @@ const Meet = () => {
             <img src="/points.svg" alt="" className="lg:w-5 w-5 h-5  lg:h-5 object-cover" />
 
             <h1 className="col-span-11 text-md  lg:text-lg text-[#0c0c0c] font-semibold tracking-wide  small">
-              Expert in People, Process and Strategy transformation. His proven
-              strategies have helped Entrepreneurs to scale and succeed
+              Expert in People, Process and Strategy transformation, his proven
+              strategies have helped many struggling Entrepreneurs to scale and succeed
             </h1>
           </div>
           <div className="flex justify-center lg:justify-start">
