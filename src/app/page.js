@@ -2,7 +2,7 @@ import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footrex";
 import Gain from "@/components/Gain/Gain";
 import Growth from "@/components/Growth/Growth";
-import Hero from "@/components/Hero";
+import Heros from "@/components/Heros";
 import Meet from "@/components/Meet/Meet";
 import Navbar from "@/components/Navbar";
 import Program from "@/components/ProgramDetail/Program";
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
     {/* <Navbar/> */}
-    <Hero/>
+    <Heros/>
     <Unlock/>
     <RightFit/>
     <Growth/>
@@ -24,7 +24,7 @@ export default function Home() {
     <Testimonial/>
     <Program/>
     <FAQ/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   );
 }

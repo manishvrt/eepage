@@ -68,12 +68,12 @@ const TestimonialCard = () => {
           .map((testimonial, index) => (
             <div
               key={index}
-              className="bg-[#ffffff] flex flex-col px-6 justify-between h-[240px] py-6 rounded-[35px] w-full"
+              className="bg-[#ffffff] flex flex-col px-6 justify-between h-auto lg:h-[240px] py-6 rounded-[35px] w-full"
               style={{ minHeight: "280px" }}
             >
               {/* Testimonial Text */}
               <div>
-                <h1 className="lg:text-xl text-lg text-[#0c0c0c]  text-left small ">
+                <h1 className="lg:text-xl text-md text-[#0c0c0c]  text-left small ">
                   {testimonial.text}
                 </h1>
               </div>
@@ -84,9 +84,9 @@ const TestimonialCard = () => {
                   <img
                     src={testimonial.image}
                     alt="feature1"
-                    className="w-14 h-14 rounded-full object-cover"
+                    className="lg:w-14 w-10 h-10 lg:h-14 rounded-full object-cover"
                   />
-                  <h1 className="small text-xl font-semibold flex flex-col ml-2">
+                  <h1 className="small text-lg lg:text-xl font-semibold flex flex-col ml-2">
                     {testimonial.name}
                     <span className="small tracking-wide text-[#9381ff] text-sm">
                       {testimonial.role}

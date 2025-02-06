@@ -4,10 +4,10 @@ import UnlockGen from "./UnlockGen";
 import { unlockData } from "./unlockData";
 const Unlock = () => {
   return (
-    <div className=" bg-[#ffffff] px-20 ">
+    <div className=" bg-[#ffffff] p-4 lg:px-20 ">
       <div className=" dark:bg-[#0c0c0c]    w-full h-auto py-16 rounded-[40px]">
         <div className="grid items-center lg:gap-12 grid-cols-1 lg:grid-cols-5">
-          <div className="lg:col-span-2 flex justify-start">
+          <div className="lg:col-span-2 flex justify-center lg:justify-start">
             <img
               src="https://images.pexels.com/photos/6535344/pexels-photo-6535344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="impact"
@@ -15,7 +15,7 @@ const Unlock = () => {
             />
           </div>
           <div className="lg:col-span-3 mt-10 lg:mt-0">
-            <h1 className="small gap-2 tracking-tight  max-w-2xl items-center flex text-[17px] lg:text-[20px] text-[#0c0c0c] dark:text-[#ffffff]">
+            <h1 className="small gap-2 tracking-tight  max-w-2xl items-center flex text-[14px] lg:text-[20px] text-[#0c0c0c] dark:text-[#ffffff]">
               <span className="dark:bg-[#ffffff] bg-[#0c0c0c] w-2 h-2 rounded-full inline-block"></span>
               The Power of Entrepreneur’s EDGE<sup>TM</sup>
             </h1>

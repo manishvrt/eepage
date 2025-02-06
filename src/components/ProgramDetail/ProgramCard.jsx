@@ -12,7 +12,7 @@ const ProgramCard = ({
         <img src={imgSrc} alt="Stat Icon" className="w-6 h-6" />
       </span>
       <div className="flex flex-col">
-        <h1 className="text-2xl gsans tracking-wide font-semibold dark:text-[#ffffff] text-[#ff0000]">
+        <h1 className="text-2xl gsans tracking-wide font-semibold dark:text-[#ffffff] text-[#0c0c0c]">
        {title}
         </h1>
         <p className="text-sm small text-[#0c0c0c] dark:text-[#989999] mt-1">

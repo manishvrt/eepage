@@ -48,7 +48,13 @@
 
 @font-face {
   font-family: "Onest";
-  src: url("./font/onest.ttf") format("truetype");
+  src: url("./font/poppins.ttf") format("truetype");
+  /* Add additional font weights and styles if needed */
+}
+
+@font-face {
+  font-family: "Mont";
+  src: url("./font/mont.ttf") format("truetype");
   /* Add additional font weights and styles if needed */
 }
 
@@ -97,7 +103,7 @@ html {
 }
 
 .small {
-  font-family: "Onest";
+  font-family: "Mont";
 }
 
 

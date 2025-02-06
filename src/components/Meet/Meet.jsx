@@ -3,9 +3,9 @@ import React from "react";
 
 const Meet = () => {
   return (
-    <div className="bg-[#ffffff] overflow-hidden  h-auto ">
-      <div className="grid   lg:grid-cols-5">
-        <div className="lg:col-span-3 pt-14 px-20">
+    <div className="bg-[#ffffff] pb-16 overflow-hidden  h-auto ">
+      <div className="grid items-center  lg:grid-cols-5">
+        <div className="lg:col-span-3 pt-14 px-4 lg:px-20">
           <h1 className="gsans text-3xl lg:text-4xl font-semibold text-[#0c0c0c]">
             Meet{" "}
             <span className="text-[#0c0c0c] tracking-wide">Your Mentor </span>
@@ -22,35 +22,31 @@ const Meet = () => {
             business excellence, Rajesh is a trusted mentor and business growth
             expert.
           </p>
-          <div className="bg-[#989999]/10  p-4 grid grid-cols-12 justify-start gap-4 items-center mt-20 lg:mt-14 relative w-full h-28 lg:h-auto py-4 rounded-3xl">
-            <span className="small col-span-1 w-10 h-10  flex justify-center items-center rounded-full border font-semibold text-[#ff0000] text-sm lg:text-md ">
-              01
-            </span>
-            <h1 className="col-span-11 text-md lg:text-lg text-[#0c0c0c] font-semibold tracking-wide  small">
+          <div className="bg-[#989999]/10  p-4 lg:p-4 flex  justify-start gap-4 items-center mt-10 lg:mt-14 relative w-full h-auto lg:h-auto py-4 rounded-3xl">
+            <img src="/points.svg" alt="" className="w-5  h-5 object-cover" />
+
+            <h1 className=" text-md lg:text-lg text-[#0c0c0c] font-semibold tracking-wide  small">
               Former Vice President at General Electric (GE)
             </h1>
           </div>
-          <div className="bg-[#989999]/10  p-4 grid grid-cols-12 justify-start gap-4 items-center mt-4 lg:mt-4 relative w-full h-28 lg:h-auto py-4 rounded-3xl">
-            <span className="small col-span-1 w-10 h-10  flex justify-center items-center rounded-full border font-semibold text-[#ff0000] text-sm lg:text-md ">
-              02
-            </span>
+          <div className="bg-[#989999]/10  p-4 lg:p-4 flex  justify-start gap-4 items-center mt-5 lg:mt-4 relative w-full h-auto lg:h-auto py-4 rounded-3xl">
+            <img src="/points.svg" alt="" className="w-5  h-5 object-cover" />
+
             <h1 className="col-span-11 text-md lg:text-lg text-[#0c0c0c] font-semibold tracking-wide  small">
               Stanford Entrepreneurship Trainer
             </h1>
           </div>
-          <div className="bg-[#989999]/10  p-4 grid grid-cols-12 justify-start gap-4 items-center mt-4 lg:mt-4 relative w-full h-28 lg:h-auto py-4 rounded-3xl">
-            <span className="small col-span-1 w-10 h-10  flex justify-center items-center rounded-full border font-semibold text-[#ff0000] text-sm lg:text-md ">
-              03
-            </span>
+          <div className="bg-[#989999]/10  p-4 lg:p-4 flex  justify-start gap-4 items-center mt-5 lg:mt-4 relative w-full h-auto lg:h-auto py-4 rounded-3xl">
+            <img src="/points.svg" alt="" className="w-5  h-5 object-cover" />
+
             <h1 className="col-span-11 text-md lg:text-lg text-[#0c0c0c] font-semibold tracking-wide  small">
               Transformed 1,400+ businesses and 14,573 Executives and CEOs
             </h1>
           </div>
-          <div className="bg-[#989999]/10  p-4 grid grid-cols-12 justify-start gap-4 items-center mt-4 lg:mt-4 relative w-full h-28 lg:h-auto py-4 rounded-3xl">
-            <span className="small col-span-1 w-10 h-10  flex justify-center items-center rounded-full border font-semibold text-[#ff0000] text-sm lg:text-md ">
-              04
-            </span>
-            <h1 className="col-span-11 text-md lg:text-lg text-[#0c0c0c] font-semibold tracking-wide  small">
+          <div className="bg-[#989999]/10 p-2 lg:p-4 flex  justify-start gap-4 items-center mt-5 lg:mt-4 relative w-full h-auto lg:h-auto py-4 rounded-3xl">
+            <img src="/points.svg" alt="" className="lg:w-5 w-5 h-5  lg:h-5 object-cover" />
+
+            <h1 className="col-span-11 text-md  lg:text-lg text-[#0c0c0c] font-semibold tracking-wide  small">
               Expert in People, Process and Strategy transformation. His proven
               strategies have helped Entrepreneurs to scale and succeed
             </h1>
@@ -65,7 +61,7 @@ const Meet = () => {
           <img
             src="/RajeshTedla.jpg"
             alt="meet"
-            className="w-full h-screen object-cover"
+            className="w-full h-96 lg:h-screen object-cover"
           />
         </div>
       </div>
