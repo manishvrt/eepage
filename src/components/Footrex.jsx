@@ -50,7 +50,7 @@ const Footer = () => {
                 Get in touch
               </h2>
 
-              <div className="lg:text-lg flex items-center gap-4 mb-4  text-[#0c0c0c] text-lg small">
+              <div className="lg:text-lg flex items-center gap-4 mb-4  text-[#0c0c0c] text-md small">
                 <img
                   src="https://www.svgrepo.com/show/488920/email.svg"
                   alt="email"
@@ -64,7 +64,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div className="lg:text-lg flex items-center gap-4 mb-4  text-[#0c0c0c] text-lg small">
+              <div className="lg:text-lg flex items-center gap-4 mb-4  text-[#0c0c0c] text-md small">
                 <img
                   src="/phone.svg"
                   alt="call"
@@ -78,7 +78,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div className="lg:text-lg flex items-center gap-4 mb-4  text-[#0c0c0c] text-lg small">
+              <div className="lg:text-lg flex items-center gap-4 mb-4  text-[#0c0c0c] text-md small">
                 <img
                   src="https://www.svgrepo.com/show/497239/location.svg"
                   alt="location"
@@ -103,7 +103,7 @@ const Footer = () => {
           <div className="flex justify-center items-center gap-8">
             <Link
               href="/"
-              className="small  lg:text-[18px] text-[16px]   text-[#787878]"
+              className="small  lg:text-[18px] text-[15px]   text-[#787878]"
             >
               Home
             </Link>
@@ -112,7 +112,7 @@ const Footer = () => {
               href="https://vrtmanagementgroup.com/results"
               target="_blank"
               rel="noopener noreferrer"
-              className="small   text-[18px]   text-[#787878]"
+              className="small   lg:text-[18px] text-[15px]   text-[#787878]"
             >
               Clients
             </a>
@@ -121,7 +121,7 @@ const Footer = () => {
               href="https://vrtmanagementgroup.com/blogs"
               target="_blank"
               rel="noopener noreferrer"
-              className="small   text-[18px]   text-[#787878]"
+              className="small   lg:text-[18px] text-[15px]   text-[#787878]"
             >
               Blog
             </a>
@@ -129,7 +129,7 @@ const Footer = () => {
               href="https://vrtmanagementgroup.com/who-we-are"
               target="_blank"
               rel="noopener noreferrer"
-              className="small   text-[18px]    text-[#787878]"
+              className="small   lg:text-[18px] text-[15px]    text-[#787878]"
             >
               About Us
             </a>
@@ -201,13 +201,13 @@ const Footer = () => {
           {/* Left Section */}
           <div className="flex small items-center gap-2 lg:gap-2">
             <h1 className="text-center">
-              <span className="text-[#0c0c0c]/50 text-sm lg:text-[15px]">
+              <span className="text-[#0c0c0c]/50 text-xs lg:text-[15px]">
                 &copy; 2025 VRT Management.
               </span>
             </h1>
             <span className="text-[#0c0c0c]/50 block lg:hidden">|</span>
             <h1 className="text-center">
-              <span className="text-[#0c0c0c]/50 text-sm lg:text-[15px]">
+              <span className="text-[#0c0c0c]/50 text-xs lg:text-[15px]">
                 All Rights Reserved.
               </span>
             </h1>

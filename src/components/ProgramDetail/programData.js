@@ -15,6 +15,7 @@ export const programData = [
         id : 3,
         imgSrc : "https://www.svgrepo.com/show/408843/dollar.svg",
         title : "$2,000 USD",
-        desc : "Investment"
+        desc : "Complimentary Access",
+        isLast: true
     }
 ]

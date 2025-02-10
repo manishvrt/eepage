@@ -4,52 +4,54 @@ import DynamicNavbar from "./DynamicNav";
 import Link from "next/link";
 const Hero = () => {
   return (
-    <div
-      className="relative bg-[#f4f4f4] h-screen bg-cover bg-center"
-      // style={{
-      //   backgroundImage:
-      //     "url('https://images.unsplash.com/photo-1614850523011-8f49ffc73908?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
-      // }}
-    >
-      {/* Overlay */}
-      {/* <div className="absolute inset-0 bg-black bg-opacity-50"></div> */}
-
-      {/* Navbar (Placed at the top) */}
-      <div className="absolute top-0 left-0 w-full z-20">
+    <>
+      <div className="relative">
         <DynamicNavbar />
-      </div>
 
-      {/* Text Content */}
-      <div className="absolute lg:mt-16 mt-6 px-3  lg:pt-0 lg:px-20 inset-0  flex flex-col items-start justify-center text-[#0c0c0c] ">
-        <h1 className="text-4xl text-[#0c0c0c] gsans md:text-6xl font-bold">
-          Unlock Your Entrepreneurial Potential with{" "}
-          <span className="text-[#ff0000]">Entrepreneur’s EDGE</span>
-        </h1>
-        <p className="mt-8 text-md tracking-tight text-zinc-700 small md:text-xl">
-          Transform your Business through proven psychometric assessment and
-          research backed insights
-        </p>
-        <div className="flex justify-center items-center gap-3">
-          <h1 className="mt-10 text-[#0c0c0c] font-semibold text-lg lg:text-3xl tracking- small">
-            A{" "}
-            <span className="font-semibold text-[#0c0c0c]">
-              4-week intensive program
-            </span>{" "}
-            designed to unlock your unique{" "}
-            <span className="font-semibold text-[#0c0c0c]">
-              competencies, driving forces, and behaviors
-            </span>{" "}
-            empowering you to accelerate your entrepreneurial success.
-          </h1>
-        </div>
-        <a href="https://www.surveymonkey.com/r/Entrepreneur_Edge" target="_blank"
-            rel="noopener noreferrer">
-          <button className=" mt-8 lg:mt-16 text-[#ffffff] tracking-wide font-semibold border border-[#ffffff]/20 small text-[18px] bg-[#ff0000]   w-fit px-6 h-14 rounded-2xl">
-            Begin Your Transformation
-          </button>
-        </a>
+        <section className="bg-[#fafafa]  mt-10  overflow-hidden">
+          <div className="flex flex-col justify-center items-center lg:flex-row lg:items-stretch h-screen ">
+            <div className="relative flex items-center justify-center w-full lg:order-2 lg:w-7/12">
+              <div className="relative px-4 pt-24 pb-16 text-center sm:px-6 md:px-14  lg:py-24 lg:text-left">
+                <h1 className="text-4xl gsans font-bold text-black lg:text-5xl">
+                  Unlock Your Entrepreneurial Potential with
+                  <span className="text-[#ff0000]"> Entrepreneur’s EDGE™</span>
+                </h1>
+                <p className="text-gray-700 tracking-tight small mt-4 text-md lg:text-xl">
+                  Transform your Business through proven psychometric assessment
+                  and research backed insights
+                </p>
+                <h1 className="mt-10 text-[#000000] font-semibold  text-md lg:text-2xl tracking-tight small">
+                  A 4 - week intensive program designed to unlock your unique
+                  competencies, driving forces, and behaviors empowering you to
+                  accelerate your entrepreneurial success.
+                </h1>
+                <Link
+                  href="https://www.surveymonkey.com/r/Entrepreneur_Edge"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className=" mt-8 lg:mt-16 text-[#ffffff] tracking-wide font-semibold border border-[#ffffff]/20 small text-sm lg:text-[16px] bg-[#ff0000]   w-fit px-6 h-14 rounded-2xl">
+                    Join the Impact – Fill Out the Form!
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="relative w-full overflow-hidden lg:order-1 h-96 lg:h-auto lg:w-5/12">
+              <div className="absolute inset-0">
+                <img
+                  className="object-cover w-full h-full"
+                  src="/heropic.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
+    </>
   );
 };
 

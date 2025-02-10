@@ -18,11 +18,8 @@ const StatsCard = () => {
 
         <div className="relative max-w-7xl px-4 lg:px-16 mx-auto z-10">
           <div>
-            <h1 className="small gap-2 tracking-tight max-w-2xl items-center flex text-[15px] lg:text-[20px] text-[#616161]">
-              <span className="bg-[#0c0c0c] w-2 h-2 rounded-full inline-block"></span>
-              The Power of Entrepreneur’s EDGE
-            </h1>
-            <h1 className="gsans text-[#0c0c0c] font-semibold mt-6 text-3xl lg:text-5xl">
+            
+            <h1 className="gsans text-[#0c0c0c] font-semibold mt-6 text-2xl lg:text-4xl">
               Program Details
             </h1>
           </div>
@@ -31,7 +28,7 @@ const StatsCard = () => {
               <ProgramCard key={index} {...data} />
             ))}
           </div>
-          <h1 className="gsans text-[#0c0c0c] font-semibold mt-20 text-3xl lg:text-5xl">
+          <h1 className="gsans text-[#0c0c0c] font-semibold mt-20 text-2xl lg:text-4xl">
             Next Cohort Start Dates
           </h1>
           <div className="grid mt-12 lg:grid-cols-2 gap-6">

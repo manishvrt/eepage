@@ -3,12 +3,12 @@ import React from "react";
 
 const Meet = () => {
   return (
-    <div className="bg-[#ffffff] pb-16 overflow-hidden  h-auto ">
+    <div className="bg-[#ffffff] pb-16 overflow-hidden  lg:h-screen ">
       <div className="grid items-center  lg:grid-cols-5">
-        <div className="lg:col-span-3 pt-14 px-4 lg:px-20">
-          <h1 className="gsans text-3xl lg:text-4xl font-semibold text-[#0c0c0c]">
+        <div className="lg:col-span-3 lh:mt-0 mt-10  px-4 lg:px-20">
+          <h1 className="gsans text-3xl lg:text-3xl font-semibold text-[#0c0c0c]">
             Meet{" "}
-            <span className="text-[#0c0c0c] tracking-wide">Your Mentor </span>
+            <span className="text-[#0c0c0c] tracking-wide">Your Mentor and Masterful Thinking Partner </span>
           </h1>
           <h1 className="gsans  text-3xl lg:text-5xl mt-2 font-semibold text-[#ff0000]">
             Rajesh Tedla
@@ -33,7 +33,7 @@ const Meet = () => {
             <img src="/points.svg" alt="" className="w-5  h-5 object-cover" />
 
             <h1 className="col-span-11 text-md lg:text-lg text-[#0c0c0c] font-semibold tracking-wide  small">
-              Stanford Entrepreneurship Trainer
+              Stanford Entrepreneurship Mentor
             </h1>
           </div>
           <div className="bg-[#989999]/10  p-4 lg:p-4 flex  justify-start gap-4 items-center mt-5 lg:mt-4 relative w-full h-auto lg:h-auto py-4 rounded-3xl">

@@ -68,12 +68,12 @@ const TestimonialCard = () => {
           .map((testimonial, index) => (
             <div
               key={index}
-              className="bg-[#ffffff] flex flex-col px-6 justify-between h-auto lg:h-[240px] py-6 rounded-[35px] w-full"
+              className="bg-[#ffffff] flex flex-col px-6 justify-between h-auto lg:h-auto py-6 rounded-[35px] w-full"
               style={{ minHeight: "280px" }}
             >
               {/* Testimonial Text */}
               <div>
-                <h1 className="lg:text-xl text-md text-[#0c0c0c]  text-left small ">
+                <h1 className="lg:text-md tracking-tight text-md text-[#0c0c0c]  text-left small ">
                   {testimonial.text}
                 </h1>
               </div>
@@ -88,7 +88,7 @@ const TestimonialCard = () => {
                   />
                   <h1 className="small text-lg lg:text-xl font-semibold flex flex-col ml-2">
                     {testimonial.name}
-                    <span className="small tracking-wide text-[#9381ff] text-sm">
+                    <span className="small tracking-wide text-[#ff0000] text-sm">
                       {testimonial.role}
                     </span>
                   </h1>
@@ -117,7 +117,7 @@ const TestimonialCard = () => {
           <img
             src={currentIndex === 0 ? "https://www.svgrepo.com/show/533605/arrow-narrow-right.svg" : "https://www.svgrepo.com/show/533605/arrow-narrow-right.svg"}
             alt="previous"
-            className="h-8 rotate-180 w-8 inline"
+            className="lg:h-8 h-6 w-6 rotate-180 lg:w-8 inline"
           />
         </button>
         <button
@@ -132,7 +132,7 @@ const TestimonialCard = () => {
           <img
             src={currentIndex >= testimonialData.length - visibleCards ? "https://www.svgrepo.com/show/533605/arrow-narrow-right.svg" : "https://www.svgrepo.com/show/533605/arrow-narrow-right.svg"}
             alt="next"
-            className="h-8 w-8 inline"
+            className="lg:h-8 h-6 w-6 lg:w-8 inline"
           />
         </button>
       </div>

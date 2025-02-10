@@ -3,6 +3,7 @@ import Footer from "@/components/Footrex";
 import Gain from "@/components/Gain/Gain";
 import Growth from "@/components/Growth/Growth";
 import Heros from "@/components/Heros";
+import Hero from "@/components/Hero";
 import Meet from "@/components/Meet/Meet";
 import Navbar from "@/components/Navbar";
 import Program from "@/components/ProgramDetail/Program";

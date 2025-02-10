@@ -11,7 +11,7 @@ export const gainData = [
   {
     id: 2,
 
-    title: "Customized Growth Plan",
+    title: "Personalized Growth Development Plan",
     
 
     description:

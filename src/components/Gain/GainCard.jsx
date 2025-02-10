@@ -34,7 +34,7 @@ const GainCard = ({ id, imgSrc, title, bgcolor,title2, videoSrc ,description}) =
         {/* Black Overlay */}
         {/* <div className="absolute inset-0 bg-zinc-900 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div> */}
 
-        <div className="lg:grid bg-[#ffffff]/80    dark:bg-[#101010] rounded-[35px]  dark:border-gray-900 flex  max-w-7xl mx-auto px-6 justify-between lg:grid-cols-12 items-center w-full lg:w-[40svw] h-auto py-6  lg:h-32 relative z-10">
+        <div className="lg:grid bg-[#ffffff]/80    dark:bg-[#101010] rounded-[35px]  dark:border-gray-900 flex  max-w-7xl mx-auto px-6 justify-between lg:grid-cols-12 items-center w-full lg:w-[40svw] h-auto py-6  lg:h-36 relative z-10">
           <div className="lg:col-span-2 hidden lg:block flex justify-start">
             <span className="dark:text-zinc-200 text-zinc-400 font-semibold small text-xl">
               0{id}

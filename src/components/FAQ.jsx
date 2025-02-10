@@ -48,26 +48,26 @@ const FAQ = () => {
   };
 
   return (
-    <div className=" h-auto">
-      <div className=" gap-6 max-w-7xl mx-auto">
+    <div className="h-auto">
+      <div className="gap-6 max-w-7xl mx-auto">
         <div className="mt-20 space-y-2 px-3 text-center">
-          <h1 className="lg:text-6xl text-4xl font-bold gsans text-[#0c0c0c] md:text-6xl ">
+          <h1 className="lg:text-6xl text-4xl font-bold gsans text-[#0c0c0c] md:text-6xl">
             Frequently Asked Questions
           </h1>
-          <p className=" small px-3  lg:text-xl text-sm pt-3 text-gray-800 ">
-          Get your answers and insights by exploring our FAQ section!
+          <p className="small px-3 lg:text-xl text-sm pt-3 text-gray-800">
+            Get your answers and insights by exploring our FAQ section!
           </p>
         </div>
         <div className="lg:col-span-3 mt-6 px-4 overflow-y-auto">
-          <div className="flex flex-col gap-4 items-end justify-start  lg:mt-20 mb-20">
+          <div className="flex flex-col gap-4 items-end justify-start lg:mt-20 mb-20">
             {faqData.map((faq, index) => (
               <div
                 key={index}
                 onClick={() => toggleCard(index)}
-                className="w-full p-6 flex max-w-5xl mx-auto flex-col cursor-pointer bg-[#ececec]/60  h-auto rounded-3xl"
+                className="w-full p-6 flex max-w-5xl mx-auto flex-col cursor-pointer bg-[#ececec]/60 h-auto rounded-3xl"
               >
-                <div className="flex justify-between items-center ">
-                  <h1 className="small text-md tracking-tight font-semibold lg:text-xl  text-[#0c0c0c]">
+                <div className="flex justify-between items-center">
+                  <h1 className="small text-md tracking-tight font-semibold lg:text-xl text-[#0c0c0c]">
                     {faq.question}
                   </h1>
                   <span
@@ -90,9 +90,20 @@ const FAQ = () => {
                   className="overflow-hidden"
                   style={{ height: 0, opacity: 0 }}
                 >
-                  <p className="mt-4 small tracking-tight text-md lg:text-lg text-zinc-700">
-                    {faq.answer}
-                  </p>
+                  {Array.isArray(faq.answer) ? (
+                    <div className="mt-4 small tracking-tight text-md lg:text-lg text-zinc-700">
+                      <p>{faq.answer[0]}</p>
+                      <ul className="mt-2 list-disc  list-inside">
+                        {faq.answer[1].map((point, i) => (
+                          <li key={i} className="mt-1">{point}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : (
+                    <p className="mt-4 small tracking-tight text-md lg:text-lg text-zinc-700">
+                      {faq.answer}
+                    </p>
+                  )}
                 </div>
               </div>
             ))}
@@ -106,26 +117,27 @@ const FAQ = () => {
 const faqData = [
   {
     question: "How much time should I commit weekly?",
-    answer:
-      "Plan for 4-6 hours per week, including live sessions and action steps.",
+    answer: "Plan for 4-6 hours per week, including live sessions and action steps.",
   },
   {
     question: "Will I receive personalized feedback?",
-    answer:
-      "Yes! Small cohort size ensures 1:1 feedback and direct guidance.",
+    answer: "Yes! Small cohort size ensures 1:1 feedback and direct guidance.",
   },
   {
-    question: "What makes this different from other programs?",
-    answer:
-      "Unlike generic business courses, this program is:",
+    question: "What makes Entrepreneur’s EDGE™ different from other programs?",
+    answer: [
+      "Unlike generic business courses, the program insights are:",
+      [
+        "Backed by scientific assessments (not opinions)",
+        "Tailored to your unique entrepreneurial profile",
+        "Led by an expert with a proven track record",
+      ],
+    ],
   },
   {
     question: "Can I access materials after the program?",
-    answer:
-      "Yes! You’ll have lifetime access to all program materials &and assessments.",
+    answer: "Yes! You’ll have lifetime access to all program materials and assessments.",
   },
-  
 ];
-
 
 export default FAQ;

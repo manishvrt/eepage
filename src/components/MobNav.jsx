@@ -58,11 +58,11 @@ function NavMob() {
   }, [isOpen]);
 
   return (
-    <div className="max-w-7xl block lg:hidden mx-auto">
+    <div className="max-w-7xl block z-10 lg:hidden mx-auto">
       <header
-        className={`fixed max-w-7xl ${
+        className={`fixed  max-w-7xl ${
           isOpen ? "backdrop-blur-none" : "backdrop-blur"
-        } mx-auto top-0 w-full z-50 bg-transparent backdrop-blur text-white p-4 flex items-center justify-between`}
+        } mx-auto top-0  w-full z-50 bg-transparent backdrop-blur text-white p-4 flex items-center justify-between`}
       >
         {/* Logo */}
         <Link
@@ -173,7 +173,7 @@ function NavMob() {
               <React.Fragment key={index}>
                 <div>
                   <button
-                    className={`hover:text-[#ff0000] transition w-full text-left ${
+                    className={`hover:text-[#ff0000] tracking-tight transition w-full text-left ${
                       selectedMenu !== null && index !== selectedMenu
                         ? "grayscale opacity-20"
                         : ""
@@ -231,7 +231,7 @@ function NavMob() {
               <img
                 src="/phone.svg"
                 alt="call"
-                className="lg:h-8 w-5 h-5 lg:w-8"
+                className="lg:h-8 w-4 h-4 lg:w-8"
               />
               <a
                 href="tel:+12033041918"
