@@ -35,15 +35,15 @@ const Gain = () => {
   }, []);
 
   return (
-    <div className="bg-[#eeeeee]/60 py-10   dark:bg-[#0c0c0c] h-auto">
+    <div className="bg-[#eeeeee]/60 py-10   --bg-[#0c0c0c] h-auto">
       <div className="grid grid-cols-1 gap-6  mx-auto ">
         {/* Left Section - Sticky */}
         <div className=" px-6 lg:px-0   flex flex-col lg:justify-center items-start lg:items-center">
        
-          <h1 className="gsans mt-6 font-semibold tracking-tight text-3xl lg:text-7xl  dark:text-[#ffffff] text-[#0c0c0c]">
+          <h1 className="gsans mt-6 font-semibold tracking-tight text-3xl lg:text-7xl  --text-[#ffffff] text-[#0c0c0c]">
           What you’ll gain  in this <span className="text-[#ff0000]">program</span> 
           </h1>
-          {/* <p className="small hidden lg:block text-sm lg:text-lg dark:text-zinc-200 text-[#0c0c0c] mt-28">
+          {/* <p className="small hidden lg:block text-sm lg:text-lg --text-zinc-200 text-[#0c0c0c] mt-28">
             Ready to take your business to the next level?
           </p> */}
           {/* <Button className="mt-6 h-14 gap-1 px-6" text="Get in touch" /> */}

@@ -34,9 +34,9 @@ const GainCard = ({ id, imgSrc, title, bgcolor,title2, videoSrc ,description}) =
         {/* Black Overlay */}
         {/* <div className="absolute inset-0 bg-zinc-900 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div> */}
 
-        <div className="lg:grid bg-[#ffffff]/80    dark:bg-[#101010] rounded-[35px]  dark:border-gray-900 flex  max-w-7xl mx-auto px-6 justify-between lg:grid-cols-12 items-center w-full lg:w-[40svw] h-auto py-6  lg:h-36 relative z-10">
+        <div className="lg:grid bg-[#ffffff]/80    --bg-[#101010] rounded-[35px]  --border-gray-900 flex  max-w-7xl mx-auto px-6 justify-between lg:grid-cols-12 items-center w-full lg:w-[40svw] h-auto py-6  lg:h-36 relative z-10">
           <div className="lg:col-span-2 hidden lg:block flex justify-start">
-            <span className="dark:text-zinc-200 text-zinc-400 font-semibold small text-xl">
+            <span className="--text-zinc-200 text-zinc-400 font-semibold small text-xl">
               0{id}
             </span>
           </div>
@@ -46,10 +46,10 @@ const GainCard = ({ id, imgSrc, title, bgcolor,title2, videoSrc ,description}) =
               
               <div className="flex lg:mt-0 flex-col">
                 
-                <h1 className="lg:text-[1.5rem] tracking-wide text-2xl font-semibold gsans  text-[#0c0c0c] dark:text-[#ffffff]">
+                <h1 className="lg:text-[1.5rem] tracking-wide text-2xl font-semibold gsans  text-[#0c0c0c] --text-[#ffffff]">
                   {title}<span className='mx-1'></span>{title2}
                 </h1>
-                <p className="mt-5 text-[#0c0c0c]/80 dark:text-[#989999] text-sm lg:text-[16px] small ">
+                <p className="mt-5 text-[#0c0c0c]/80 --text-[#989999] text-sm lg:text-[16px] small ">
                   {description}
                 </p>
               </div>

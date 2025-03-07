@@ -10,7 +10,7 @@ const RightFit = () => {
       <div className="lg:grid items-center lg:grid-cols-5 gap-4 ">
         <div className="lg:col-span-3">
         
-          <h1 className="gsans dark:text-[#ffffff] font-semibold mt-6  text-[#0c0c0c] text-2xl lg:text-5xl">
+          <h1 className="gsans --text-[#ffffff] font-semibold mt-6  text-[#0c0c0c] text-2xl lg:text-5xl">
             Is This Program Right for You?
           </h1>
         </div>
@@ -31,10 +31,8 @@ const RightFit = () => {
           <FitCard key={id} {...data} />
         ))}
       </div>
-      <h1 className="gsans mt-20 dark:text-[#ffffff] text-center lg:text-left font-semibold   text-[#0c0c0c] text-2xl lg:text-5xl">
-        Ideal Entrepreneur Profile
-      </h1>
-      <div className="grid lg:grid-cols-3 lg:mt-20 mt-12 w-full gap-6">
+      
+      <div className="grid lg:grid-cols-3 lg:mt-10 mt-12 w-full gap-6">
         {idealData.map((data, id) => (
           <IdealCard key={id} {...data} isLast={id === idealData.length - 1} />
         ))}

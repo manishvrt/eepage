@@ -59,7 +59,7 @@ export default function HomePage() {
             Behaviors
             </h1>
             <Link
-              href="https://www.surveymonkey.com/r/Entrepreneur_Edge"
+              href="https://www.surveymonkey.com/r/New_Edge"
               target="_blank"
               rel="noopener noreferrer"
             >

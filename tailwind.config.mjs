@@ -8,6 +8,9 @@ export default {
   theme: {
     extend: {
       colors: {
+        gradientOne: "#AFF7EC",
+        gradientTwo: "#A5A2CD",
+        gradientThree: "#F9EDC8",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
